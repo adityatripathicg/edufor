@@ -5,19 +5,26 @@ import Hero3 from "./components/Hero3";
 import Hero4 from "./components/Hero4";
 import Hero5 from "./components/Hero5";
 import Hero6 from "./components/Hero6";
+import Hero7 from "./components/Hero7";
+import Hero8 from "./components/Hero8";
 
 export default function Home() {
   return (
-    <>
-     <Navbar />
-    <div className="w-full h-240 bg-[url('/bghero.png')] bg-cover bg-center">
-      <Hero /> 
-    </div>
-    <Hero2 />
-    <Hero3 />
-    <Hero4 />
-    <Hero5 />
-    <Hero6 />
-    </>
+    <main className="min-h-screen">
+      <Navbar />
+      <div className="w-full min-h-screen bg-[url('/bghero.png')] bg-cover bg-center bg-no-repeat relative">
+        <div className="absolute inset-0 bg-gradient-to-br from-white/95 via-white/90 to-white/85"></div>
+        <div className="relative z-10">
+          <Hero /> 
+        </div>
+      </div>
+      <Hero2 />
+      <Hero3 />
+      <Hero4 />
+      <Hero5 />
+      <Hero6 />
+      <Hero7 />
+      <Hero8 />
+    </main>
   );
 }
