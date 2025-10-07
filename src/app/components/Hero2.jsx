@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa";
 
 export default function Hero2() {
@@ -17,10 +18,10 @@ export default function Hero2() {
           <div className="text-gray-600 font-medium text-base sm:text-lg lg:text-xl leading-relaxed">
             Helping students achieve their academic dreams with expert guidance. From university selection to application success, we make the journey smooth and stress-free. Your future starts here—let's make it happen together!
           </div>
-          <button className="group flex gap-2 items-center justify-center text-white bg-gradient-to-r from-gray-900 to-black rounded-full px-8 py-4 w-fit text-sm sm:text-base font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
+          <Link href="/services" className="group flex gap-2 items-center justify-center text-white bg-gradient-to-r from-gray-900 to-black rounded-full px-8 py-4 w-fit text-sm sm:text-base font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
             View Services 
             <FaArrowRight className="group-hover:translate-x-1 transition-transform duration-300" />
-          </button>
+          </Link>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 py-8 sm:py-12">
               <div className="text-center group hover:scale-105 transition-transform duration-300">
                   <div className="text-3xl sm:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-green-500 to-green-600 bg-clip-text text-transparent mb-2">200+</div>

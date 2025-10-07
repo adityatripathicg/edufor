@@ -13,7 +13,7 @@ export default function Home() {
     <main className="min-h-screen">
       <Navbar />
       <div className="w-full min-h-screen bg-[url('/bghero.png')] bg-cover bg-center bg-no-repeat relative">
-        <div className="absolute inset-0 bg-gradient-to-br from-white/95 via-white/90 to-white/85"></div>
+        <div className=""></div>
         <div className="relative z-10">
           <Hero /> 
         </div>

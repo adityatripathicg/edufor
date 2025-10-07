@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero8() {
   return (
@@ -35,11 +36,11 @@ export default function Hero8() {
           <div>
             <h3 className="text-lg font-semibold text-gray-900 mb-4">Quick Links</h3>
             <ul className="space-y-3">
-              <li><a href="#" className="text-gray-600 hover:text-[#B6D680] transition-colors duration-300 text-sm sm:text-base">About Us</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-[#B6D680] transition-colors duration-300 text-sm sm:text-base">Our Services</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-[#B6D680] transition-colors duration-300 text-sm sm:text-base">Success Stories</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-[#B6D680] transition-colors duration-300 text-sm sm:text-base">Blog & Articles</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-[#B6D680] transition-colors duration-300 text-sm sm:text-base">FAQ</a></li>
+              <li><Link href="/about" className="text-gray-600 hover:text-[#B6D680] transition-colors duration-300 text-sm sm:text-base">About Us</Link></li>
+              <li><Link href="/services" className="text-gray-600 hover:text-[#B6D680] transition-colors duration-300 text-sm sm:text-base">Our Services</Link></li>
+              <li><Link href="/about" className="text-gray-600 hover:text-[#B6D680] transition-colors duration-300 text-sm sm:text-base">Success Stories</Link></li>
+              <li><Link href="/articles" className="text-gray-600 hover:text-[#B6D680] transition-colors duration-300 text-sm sm:text-base">Blog & Articles</Link></li>
+              <li><Link href="/faq" className="text-gray-600 hover:text-[#B6D680] transition-colors duration-300 text-sm sm:text-base">FAQ</Link></li>
             </ul>
           </div>
 
@@ -47,11 +48,11 @@ export default function Hero8() {
           <div>
             <h3 className="text-lg font-semibold text-gray-900 mb-4">Services</h3>
             <ul className="space-y-3">
-              <li><a href="#" className="text-gray-600 hover:text-[#B6D680] transition-colors duration-300 text-sm sm:text-base">University Placement</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-[#B6D680] transition-colors duration-300 text-sm sm:text-base">Scholarship Assistance</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-[#B6D680] transition-colors duration-300 text-sm sm:text-base">Visa Support</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-[#B6D680] transition-colors duration-300 text-sm sm:text-base">Personal Statement</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-[#B6D680] transition-colors duration-300 text-sm sm:text-base">Career Counseling</a></li>
+              <li><Link href="/services/university-placement" className="text-gray-600 hover:text-[#B6D680] transition-colors duration-300 text-sm sm:text-base">University Placement</Link></li>
+              <li><Link href="/services/scholarships" className="text-gray-600 hover:text-[#B6D680] transition-colors duration-300 text-sm sm:text-base">Scholarship Assistance</Link></li>
+              <li><Link href="/services/visa-support" className="text-gray-600 hover:text-[#B6D680] transition-colors duration-300 text-sm sm:text-base">Visa Support</Link></li>
+              <li><Link href="/services/personal-statement" className="text-gray-600 hover:text-[#B6D680] transition-colors duration-300 text-sm sm:text-base">Personal Statement</Link></li>
+              <li><Link href="/services/career-counseling" className="text-gray-600 hover:text-[#B6D680] transition-colors duration-300 text-sm sm:text-base">Career Counseling</Link></li>
             </ul>
           </div>
         </div>
@@ -85,7 +86,7 @@ export default function Hero8() {
             <div className="flex gap-6 text-sm sm:text-base">
               <a href="#" className="text-gray-600 hover:text-[#B6D680] transition-colors duration-300">Privacy Policy</a>
               <a href="#" className="text-gray-600 hover:text-[#B6D680] transition-colors duration-300">Terms of Service</a>
-              <a href="#" className="text-gray-600 hover:text-[#B6D680] transition-colors duration-300">Contact Us</a>
+              <Link href="/contact" className="text-gray-600 hover:text-[#B6D680] transition-colors duration-300">Contact Us</Link>
             </div>
           </div>
         </div>

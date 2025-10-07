@@ -42,7 +42,7 @@ export default function Hero3() {
         {cards.map((card, index) => {
           return (
             <div key={index} className="group flex flex-col items-start justify-start border-2 rounded-2xl border-gray-100 h-80 sm:h-96 relative overflow-hidden hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 bg-white">
-              <div className="absolute inset-0 bg-gradient-to-br from-white/90 to-white/70 z-10 group-hover:from-white/80 group-hover:to-white/60 transition-all duration-300"></div>
+              <div className="transition-all duration-300"></div>
               <h2 className={`text-xl sm:text-2xl lg:text-3xl font-bold text-start absolute top-6 left-6 z-20 bg-gradient-to-r ${card.gradient} bg-clip-text text-transparent`}>
                 {card.title}
               </h2>

@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa";
 
 export default function Hero4() {
@@ -31,10 +32,10 @@ export default function Hero4() {
             <p className="text-gray-600 font-medium text-base sm:text-lg leading-relaxed">
               Navigating university applications can be challenging, but our experienced advisors provide personalized support from start to finish. With EduFor, you get strategic planning, expert insights, and hands-on assistance to maximize your chances of success.
             </p>
-            <button className="group/btn flex gap-2 items-center justify-center text-[#B6D680] border-2 border-[#B6D680] bg-white rounded-full px-6 py-3 w-fit text-sm sm:text-base font-semibold hover:bg-[#B6D680] hover:text-white transition-all duration-300">
+            <Link href="/services" className="group/btn flex gap-2 items-center justify-center text-[#B6D680] border-2 border-[#B6D680] bg-white rounded-full px-6 py-3 w-fit text-sm sm:text-base font-semibold hover:bg-[#B6D680] hover:text-white transition-all duration-300">
               View Services 
               <FaArrowRight className="group-hover/btn:translate-x-1 transition-transform duration-300" />
-            </button>
+            </Link>
           </div>
 
           <div className="group flex flex-col gap-6 border-2 rounded-2xl border-gray-100 p-6 sm:p-8 bg-white hover:shadow-2xl transition-all duration-500 hover:-translate-y-1">
@@ -47,10 +48,10 @@ export default function Hero4() {
             <p className="text-gray-600 font-medium text-base sm:text-lg leading-relaxed">
               Every student is unique, and so are their academic aspirations. We provide customized guidance that aligns with your specific goals, interests, and career objectives.
             </p>
-            <button className="group/btn flex gap-2 items-center justify-center text-blue-600 border-2 border-blue-600 bg-white rounded-full px-6 py-3 w-fit text-sm sm:text-base font-semibold hover:bg-blue-600 hover:text-white transition-all duration-300">
+            <Link href="/about" className="group/btn flex gap-2 items-center justify-center text-blue-600 border-2 border-blue-600 bg-white rounded-full px-6 py-3 w-fit text-sm sm:text-base font-semibold hover:bg-blue-600 hover:text-white transition-all duration-300">
               Learn More 
               <FaArrowRight className="group-hover/btn:translate-x-1 transition-transform duration-300" />
-            </button>
+            </Link>
           </div>
 
           <div className="group flex flex-col gap-6 border-2 rounded-2xl border-gray-100 p-6 sm:p-8 bg-white hover:shadow-2xl transition-all duration-500 hover:-translate-y-1">
@@ -63,10 +64,10 @@ export default function Hero4() {
             <p className="text-gray-600 font-medium text-base sm:text-lg leading-relaxed">
               From application submission to visa processing, we handle all the complex paperwork and requirements, ensuring a smooth and stress-free experience for you and your family.
             </p>
-            <button className="group/btn flex gap-2 items-center justify-center text-purple-600 border-2 border-purple-600 bg-white rounded-full px-6 py-3 w-fit text-sm sm:text-base font-semibold hover:bg-purple-600 hover:text-white transition-all duration-300">
+            <Link href="/contact" className="group/btn flex gap-2 items-center justify-center text-purple-600 border-2 border-purple-600 bg-white rounded-full px-6 py-3 w-fit text-sm sm:text-base font-semibold hover:bg-purple-600 hover:text-white transition-all duration-300">
               Get Started 
               <FaArrowRight className="group-hover/btn:translate-x-1 transition-transform duration-300" />
-            </button>
+            </Link>
           </div>
         </div>
     </div>

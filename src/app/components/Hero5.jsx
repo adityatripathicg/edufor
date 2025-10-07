@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const cards = [
     {
@@ -65,10 +66,10 @@ export default function Hero5() {
                 <p className="text-gray-600 font-medium text-sm sm:text-base leading-relaxed flex-grow mb-6">
                   {card.description}
                 </p>
-                <button className="group/btn flex gap-2 items-center justify-center text-gray-700 border-2 border-gray-200 bg-white rounded-full px-4 py-3 w-fit text-sm sm:text-base font-semibold hover:border-[#B6D680] hover:text-[#B6D680] transition-all duration-300">
+                <Link href="/services" className="group/btn flex gap-2 items-center justify-center text-gray-700 border-2 border-gray-200 bg-white rounded-full px-4 py-3 w-fit text-sm sm:text-base font-semibold hover:border-[#B6D680] hover:text-[#B6D680] transition-all duration-300">
                   View Services 
                   <Image src="/rightarrow.svg" alt="arrowright" width={16} height={16} className="group-hover/btn:translate-x-1 transition-transform duration-300" />
-                </button>
+                </Link>
               </div>
             </div>
           )
