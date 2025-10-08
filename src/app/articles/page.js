@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import Image from "next/image";
 import Link from "next/link";
-import { FaArrowRight, FaCalendarAlt, FaUser, FaEye, FaTag, FaBookOpen, FaLightbulb, FaGraduationCap, FaRocket } from "react-icons/fa";
+import { FaArrowRight, FaCalendarAlt, FaUser, FaEye, FaTag, FaBookOpen, FaLightbulb, FaGraduationCap, FaRocket, FaFileAlt } from "react-icons/fa";
 
 const articles = [
   {

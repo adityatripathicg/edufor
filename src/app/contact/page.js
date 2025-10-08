@@ -120,7 +120,7 @@ export default function Contact() {
                 Send Us a <span className="gradient-text">Message</span>
               </h2>
               <p className="text-gray-600 text-lg mb-8">
-                Fill out the form below and we'll get back to you within 24 hours.
+                Fill out the form below and we&apos;ll get back to you within 24 hours.
               </p>
               
               <form className="space-y-6">
@@ -297,7 +297,7 @@ export default function Contact() {
             Ready to Start Your <span className="bg-gradient-to-r from-[#B6D680] to-[#A5C96B] bg-clip-text text-transparent">Journey?</span>
           </h2>
           <p className="text-gray-300 font-medium text-lg sm:text-xl lg:text-2xl mb-8 leading-relaxed">
-            Don't wait - the sooner you start, the better your chances of success. Contact us today for a free consultation.
+            Don&apos;t wait - the sooner you start, the better your chances of success. Contact us today for a free consultation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:+994123456789" className="group inline-flex gap-2 items-center justify-center text-white bg-gradient-to-r from-[#B6D680] to-[#A5C96B] rounded-full px-8 py-4 text-lg font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">

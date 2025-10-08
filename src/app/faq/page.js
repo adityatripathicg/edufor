@@ -261,7 +261,7 @@ export default function FAQ() {
             Still Have <span className="bg-gradient-to-r from-[#B6D680] to-[#A5C96B] bg-clip-text text-transparent">Questions?</span>
           </h2>
           <p className="text-gray-300 font-medium text-lg sm:text-xl lg:text-2xl mb-8 leading-relaxed">
-            Can't find the answer you're looking for? Our team is here to help you with any questions about your university application journey.
+            Can&apos;t find the answer you&apos;re looking for? Our team is here to help you with any questions about your university application journey.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="/contact" className="group inline-flex gap-2 items-center justify-center text-white bg-gradient-to-r from-[#B6D680] to-[#A5C96B] rounded-full px-8 py-4 text-lg font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">

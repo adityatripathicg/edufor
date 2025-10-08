@@ -1,7 +1,7 @@
 import Navbar from "../../components/Navbar";
 import Image from "next/image";
 import Link from "next/link";
-import { FaArrowRight, FaCheckCircle, FaUser, FaGraduationCap, FaBriefcase, FaLightbulb, FaChartLine, FaUsers } from "react-icons/fa";
+import { FaArrowRight, FaCheckCircle, FaUser, FaGraduationCap, FaBriefcase, FaLightbulb, FaChartLine, FaUsers, FaStar } from "react-icons/fa";
 
 const services = [
   {
@@ -275,7 +275,7 @@ export default function CareerCounseling() {
                 </div>
               </div>
               <p className="text-gray-600 leading-relaxed mb-4">
-                "EduFor's career counseling helped me discover my passion for technology and guided me toward computer science. Now I'm working at my dream company!"
+                &quot;EduFor&apos;s career counseling helped me discover my passion for technology and guided me toward computer science. Now I&apos;m working at my dream company!&quot;
               </p>
               <div className="flex items-center gap-1">
                 {[...Array(5)].map((_, i) => (
@@ -295,7 +295,7 @@ export default function CareerCounseling() {
                 </div>
               </div>
               <p className="text-gray-600 leading-relaxed mb-4">
-                "The career assessment revealed my interest in medicine. EduFor helped me plan my pre-med journey and I'm now a practicing physician."
+                &quot;The career assessment revealed my interest in medicine. EduFor helped me plan my pre-med journey and I&apos;m now a practicing physician.&quot;
               </p>
               <div className="flex items-center gap-1">
                 {[...Array(5)].map((_, i) => (
@@ -315,7 +315,7 @@ export default function CareerCounseling() {
                 </div>
               </div>
               <p className="text-gray-600 leading-relaxed mb-4">
-                "Career counseling helped me understand my analytical strengths and led me to finance. I'm now working in investment banking at a top firm."
+                &quot;Career counseling helped me understand my analytical strengths and led me to finance. I&apos;m now working in investment banking at a top firm.&quot;
               </p>
               <div className="flex items-center gap-1">
                 {[...Array(5)].map((_, i) => (

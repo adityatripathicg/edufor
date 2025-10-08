@@ -229,7 +229,7 @@ export default function PersonalStatement() {
                 </div>
               </div>
               <p className="text-gray-600 leading-relaxed mb-4">
-                "EduFor helped me craft a personal statement that truly reflected my journey and passion. The admissions committee was impressed!"
+                &quot;EduFor helped me craft a personal statement that truly reflected my journey and passion. The admissions committee was impressed!&quot;
               </p>
               <div className="flex items-center gap-1">
                 {[...Array(5)].map((_, i) => (
@@ -249,7 +249,7 @@ export default function PersonalStatement() {
                 </div>
               </div>
               <p className="text-gray-600 leading-relaxed mb-4">
-                "The personal statement writing service was exceptional. They helped me tell my story in a way that stood out from other applicants."
+                &quot;The personal statement writing service was exceptional. They helped me tell my story in a way that stood out from other applicants.&quot;
               </p>
               <div className="flex items-center gap-1">
                 {[...Array(5)].map((_, i) => (
@@ -269,7 +269,7 @@ export default function PersonalStatement() {
                 </div>
               </div>
               <p className="text-gray-600 leading-relaxed mb-4">
-                "The editing and review service transformed my personal statement. The final version was polished and compelling."
+                &quot;The editing and review service transformed my personal statement. The final version was polished and compelling.&quot;
               </p>
               <div className="flex items-center gap-1">
                 {[...Array(5)].map((_, i) => (

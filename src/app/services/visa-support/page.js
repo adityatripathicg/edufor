@@ -1,7 +1,7 @@
 import Navbar from "../../components/Navbar";
 import Image from "next/image";
 import Link from "next/link";
-import { FaArrowRight, FaCheckCircle, FaPassport, FaFileAlt, FaClock, FaGlobe, FaUser, FaPhone } from "react-icons/fa";
+import { FaArrowRight, FaCheckCircle, FaPassport, FaFileAlt, FaClock, FaGlobe, FaUser, FaPhone, FaStar } from "react-icons/fa";
 
 const visaTypes = [
   {
@@ -236,7 +236,7 @@ export default function VisaSupport() {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold text-gray-900 mb-2">Ongoing Support</h3>
-                    <p className="text-gray-600">We're with you every step of the way, providing support and answering questions throughout the process.</p>
+                    <p className="text-gray-600">We&apos;re with you every step of the way, providing support and answering questions throughout the process.</p>
                   </div>
                 </div>
               </div>
@@ -280,7 +280,7 @@ export default function VisaSupport() {
                 </div>
               </div>
               <p className="text-gray-600 leading-relaxed mb-4">
-                "EduFor's visa support team made the complex F-1 visa process so much easier. I got my visa approved on the first try!"
+                &quot;EduFor&apos;s visa support team made the complex F-1 visa process so much easier. I got my visa approved on the first try!&quot;
               </p>
               <div className="flex items-center gap-1">
                 {[...Array(5)].map((_, i) => (
@@ -300,7 +300,7 @@ export default function VisaSupport() {
                 </div>
               </div>
               <p className="text-gray-600 leading-relaxed mb-4">
-                "The interview preparation was excellent. I felt confident and prepared, and my visa was approved without any issues."
+                &quot;The interview preparation was excellent. I felt confident and prepared, and my visa was approved without any issues.&quot;
               </p>
               <div className="flex items-center gap-1">
                 {[...Array(5)].map((_, i) => (
@@ -320,7 +320,7 @@ export default function VisaSupport() {
                 </div>
               </div>
               <p className="text-gray-600 leading-relaxed mb-4">
-                "EduFor's document preparation service was outstanding. Everything was organized perfectly and my application was processed quickly."
+                &quot;EduFor&apos;s document preparation service was outstanding. Everything was organized perfectly and my application was processed quickly.&quot;
               </p>
               <div className="flex items-center gap-1">
                 {[...Array(5)].map((_, i) => (

@@ -1,7 +1,7 @@
 import Navbar from "../../components/Navbar";
 import Image from "next/image";
 import Link from "next/link";
-import { FaArrowLeft, FaCalendarAlt, FaUser, FaEye, FaTag, FaShare, FaBookmark, FaThumbsUp } from "react-icons/fa";
+import { FaArrowLeft, FaCalendarAlt, FaUser, FaEye, FaTag, FaShare, FaBookmark, FaThumbsUp, FaArrowRight } from "react-icons/fa";
 
 // This would typically come from a database or CMS
 const getArticle = (id) => {
@@ -138,7 +138,7 @@ export default function ArticlePage({ params }) {
         <div className="flex items-center justify-center min-h-screen">
           <div className="text-center">
             <h1 className="text-4xl font-bold text-gray-900 mb-4">Article Not Found</h1>
-            <p className="text-gray-600 mb-8">The article you're looking for doesn't exist.</p>
+            <p className="text-gray-600 mb-8">The article you&apos;re looking for doesn&apos;t exist.</p>
             <Link href="/articles" className="inline-flex items-center gap-2 text-[#B6D680] hover:text-[#A5C96B] transition-colors duration-300">
               <FaArrowLeft className="w-4 h-4" />
               Back to Articles

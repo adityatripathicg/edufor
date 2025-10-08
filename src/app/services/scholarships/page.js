@@ -171,7 +171,7 @@ export default function Scholarships() {
               Success <span className="gradient-text">Stories</span>
             </h2>
             <p className="text-gray-600 font-medium text-lg sm:text-xl lg:text-2xl max-w-4xl mx-auto leading-relaxed">
-              See how we've helped students secure significant scholarship funding
+              See how we&apos;ve helped students secure significant scholarship funding
             </p>
           </div>
           
@@ -187,7 +187,7 @@ export default function Scholarships() {
                 </div>
               </div>
               <p className="text-gray-600 leading-relaxed mb-4">
-                "EduFor helped me secure a $45,000 merit-based scholarship to Harvard. Their guidance on essay writing and application strategy was invaluable."
+                &quot;EduFor helped me secure a $45,000 merit-based scholarship to Harvard. Their guidance on essay writing and application strategy was invaluable.&quot;
               </p>
               <div className="flex items-center gap-1">
                 {[...Array(5)].map((_, i) => (
@@ -207,7 +207,7 @@ export default function Scholarships() {
                 </div>
               </div>
               <p className="text-gray-600 leading-relaxed mb-4">
-                "With EduFor's help, I secured multiple scholarships totaling $30,000. Their research and application support made all the difference."
+                &quot;With EduFor&apos;s help, I secured multiple scholarships totaling $30,000. Their research and application support made all the difference.&quot;
               </p>
               <div className="flex items-center gap-1">
                 {[...Array(5)].map((_, i) => (
@@ -227,7 +227,7 @@ export default function Scholarships() {
                 </div>
               </div>
               <p className="text-gray-600 leading-relaxed mb-4">
-                "EduFor's scholarship specialists helped me find and apply for the perfect scholarship. I'm now studying at Stanford with full funding!"
+                &quot;EduFor&apos;s scholarship specialists helped me find and apply for the perfect scholarship. I&apos;m now studying at Stanford with full funding!&quot;
               </p>
               <div className="flex items-center gap-1">
                 {[...Array(5)].map((_, i) => (

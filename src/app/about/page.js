@@ -170,7 +170,7 @@ export default function About() {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4">Commitment</h3>
               <p className="text-gray-600 leading-relaxed">
-                We are fully dedicated to our students' success, providing unwavering support and guidance throughout their entire academic journey.
+                We are fully dedicated to our students&apos; success, providing unwavering support and guidance throughout their entire academic journey.
               </p>
             </div>
 

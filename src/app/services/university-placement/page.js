@@ -290,7 +290,7 @@ export default function UniversityPlacement() {
               Success <span className="gradient-text">Stories</span>
             </h2>
             <p className="text-gray-600 font-medium text-lg sm:text-xl lg:text-2xl max-w-4xl mx-auto leading-relaxed">
-              Real students, real results - see how we've helped others achieve their dreams
+              Real students, real results - see how we&apos;ve helped others achieve their dreams
             </p>
           </div>
           
@@ -306,7 +306,7 @@ export default function UniversityPlacement() {
                 </div>
               </div>
               <p className="text-gray-600 leading-relaxed mb-4">
-                "EduFor helped me navigate the complex application process and secure admission to Harvard Business School. Their personalized approach made all the difference."
+                &quot;EduFor helped me navigate the complex application process and secure admission to Harvard Business School. Their personalized approach made all the difference.&quot;
               </p>
               <div className="flex items-center gap-1">
                 {[...Array(5)].map((_, i) => (
@@ -326,7 +326,7 @@ export default function UniversityPlacement() {
                 </div>
               </div>
               <p className="text-gray-600 leading-relaxed mb-4">
-                "The team's expertise in UK university applications was invaluable. I couldn't have gotten into Oxford without their guidance and support."
+                &quot;The team&apos;s expertise in UK university applications was invaluable. I couldn&apos;t have gotten into Oxford without their guidance and support.&quot;
               </p>
               <div className="flex items-center gap-1">
                 {[...Array(5)].map((_, i) => (
@@ -346,7 +346,7 @@ export default function UniversityPlacement() {
                 </div>
               </div>
               <p className="text-gray-600 leading-relaxed mb-4">
-                "From profile assessment to final application, EduFor provided comprehensive support. I'm now pursuing my dream at Stanford!"
+                &quot;From profile assessment to final application, EduFor provided comprehensive support. I&apos;m now pursuing my dream at Stanford!&quot;
               </p>
               <div className="flex items-center gap-1">
                 {[...Array(5)].map((_, i) => (
